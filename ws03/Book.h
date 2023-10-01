@@ -19,8 +19,8 @@ namespace sdds {
         // to manage Book-type objects.
         //Book(const Book& other);
         //Book& operator=(const Book& other);
-        bool operator<(const Book& other);
-        bool operator>(const Book& other);
+        bool operator<(const Book& other)const;
+        bool operator>(const Book& other)const;
         // In completing Part 2, add here the missing
         // member prototypes that would be necessary for
         // OrderedCollection module code and tester module

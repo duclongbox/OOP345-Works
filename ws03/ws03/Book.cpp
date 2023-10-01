@@ -15,24 +15,24 @@ namespace sdds {
         m_numPages = nPages;
         
     }
-    bool Book::operator<(const Book& other){
-        if ((other.m_numPages/other.m_numChapters)>(m_numPages/m_numChapters)){
+    bool Book::operator<(const Book& other)const{
+        if (((double)other.m_numPages/other.m_numChapters)>((double)m_numPages/m_numChapters)){
             return true;
         }
         return false;
     }
-    bool Book::operator>(const Book& other){
-        if ((other.m_numPages/other.m_numChapters)<(m_numPages/m_numChapters)){
+    bool Book::operator>(const Book& other)const{
+        if (((double)other.m_numPages/other.m_numChapters)<((double)m_numPages/m_numChapters)){
             return true;
         }
         return false;
     }
     ostream& Book::print(ostream& os) const {
         if(m_title.length()!=0){
-            string book = m_title + "," + to_string(m_numChapters)+ "," + to_string(m_numPages);
+            //string book = m_title + "," + to_string(m_numChapters)+ "," + to_string(m_numPages);
             os.setf(ios::right);
             os.width(56);
-            os<< book << " | ";
+            os<< m_title + "," + to_string(m_numChapters)+ "," + to_string(m_numPages) << " | ";
             os.unsetf(ios::right);
             os << "(";
             os.setf(ios::fixed);

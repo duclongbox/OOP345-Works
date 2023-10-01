@@ -29,6 +29,7 @@
 		FF3093152AC4840D0009D58E /* Book.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Book.cpp; sourceTree = "<group>"; };
 		FF3093182AC484C10009D58E /* Collection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Collection.h; sourceTree = "<group>"; };
 		FF3093192AC4856B0009D58E /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		FF506AEB2AC6024700186C9C /* OrderedCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderedCollection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		FF3093002AC483710009D58E = {
 			isa = PBXGroup;
 			children = (
+				FF506AEB2AC6024700186C9C /* OrderedCollection.h */,
 				FF3093192AC4856B0009D58E /* Book.h */,
 				FF3093182AC484C10009D58E /* Collection.h */,
 				FF30930B2AC483710009D58E /* ws03 */,
