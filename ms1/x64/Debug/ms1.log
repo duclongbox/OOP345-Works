@@ -1,0 +1,6 @@
+﻿  Station.cpp
+C:\OOP345\OOP345-WORKS\ms1\Station.cpp(29,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Utilities.cpp
+  ms1.cpp
+  Generating Code...
+  ms1.vcxproj -> C:\OOP345\OOP345-WORKS\ms1\x64\Debug\ms1.exe
