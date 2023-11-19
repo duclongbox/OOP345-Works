@@ -1,0 +1,5 @@
+﻿  Utilities.cpp
+C:\OOP345\OOP345-WORKS\ws08\Utilities.cpp(50,43): warning C4101: 'msg': unreferenced local variable
+  w8_p1.cpp
+  Generating Code...
+  ws08.vcxproj -> C:\OOP345\OOP345-WORKS\ws08\x64\Debug\ws08.exe
