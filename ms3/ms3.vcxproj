@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CustomerOrder.cpp" />
+    <ClCompile Include="LineManager.cpp" />
     <ClCompile Include="ms3.cpp" />
     <ClCompile Include="Station.cpp" />
     <ClCompile Include="Utilities.cpp" />
@@ -135,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CustomerOrder.h" />
+    <ClInclude Include="LineManager.h" />
     <ClInclude Include="Station.h" />
     <ClInclude Include="Utilities.h" />
     <ClInclude Include="Workstation.h" />

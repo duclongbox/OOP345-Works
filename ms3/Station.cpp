@@ -41,6 +41,7 @@ namespace sdds {
     }
 
     size_t Station::getNextSerialNumber() {
+       
         return m_nextNum++;
     }
 
@@ -50,7 +51,10 @@ namespace sdds {
 
     void  Station::updateQuantity() {
         if (m_noOfItem > 0) {
-            m_noOfItem--;
+            --m_noOfItem;
+        }
+        else {
+            m_noOfItem = 0;
         }
     }
 
