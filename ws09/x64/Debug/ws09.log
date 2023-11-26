@@ -1,0 +1,5 @@
+﻿  process_data.cpp
+  w9_p2.cpp
+C:\OOP345\OOP345-WORKS\ws09\w9_p2.cpp(70,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  ws09.vcxproj -> C:\OOP345\OOP345-WORKS\ws09\x64\Debug\ws09.exe
